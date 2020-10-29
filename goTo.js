@@ -21,6 +21,13 @@ $("*").each(function (index, element) {
             // 上方位置 = 目標區塊.位移().上方位置
             var top = $(target).offset().top;
             console.log("要前往元素的上方位置：" + top);
+
+            // 網頁元素.動畫({ 上方捲動：指定元素 - 位移}，持續時間)
+            // parseInt() 將文字轉為數字
+            
+            $("html").animate({
+                scrollTop: top - offset
+            }, parseInt(duration));
         }
     });
 });
