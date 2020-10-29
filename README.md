@@ -5,7 +5,7 @@
 https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
 
 # CDN
-放在 </body> 上方
+放在 body 結束元素的上方，必須按造下方的順序
 ```
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
