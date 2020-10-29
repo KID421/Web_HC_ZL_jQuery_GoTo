@@ -12,5 +12,3 @@ https://kid421.github.io/Web_HC_ZL_jQuery_GoTo/
 
 <!-- 前往元素 js -->
 <script src="https://github.com/KID421/Web_HC_ZL_jQuery_GoTo/blob/main/goTo.js"></script>
-
-# 123
